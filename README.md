@@ -46,6 +46,14 @@ If you want to evaluate SNR-specific test results, run
 python ./sgmse_bbed/deep_eval.py --test_dir ./dataset/VBD_SNR-5/valid2 --destination_folder {your destination folder here} --ckpt {your checkpoint file here}
 ```
 
+We offer pretrained checkpoints for M4, M5, M6, SE-Bridge baseline, and our SNR estimator. (Aside from the use of oracle SNR values, M1–M3 and M4–M6 are identical)
+Our checkpoints can be downloaded [here](https://drive.google.com/drive/folders/12xatVSNG1mhjGSW9vppM8AGibo-HKCwK?usp=sharing).
+
+The other baselines, [SGMSE+](https://github.com/sp-uhh/sgmse)[2] and [StoRM](https://github.com/sp-uhh/storm)[3], were evaluated using their official implementations.
+
 References
 ----------
-[1] Bunlong Lay, Simon Welker, Julius Richter and Timo Gerkmann. Reducing the Prior Mismatch of Stochastic Differential Equations for Diffusion-based Speech Enhancement, ISCA Interspeech, 2023.
+[1] B. Lay, S. Welker, J. Richter and T. Gerkmann. Reducing the Prior Mismatch of Stochastic Differential Equations for Diffusion-based Speech Enhancement, ISCA Interspeech, 2023.
+[2] J. Richter, S. Welker, J.-M. Lemercier, B. Lay, and T. Gerkmann. Speech enhancement and dereverberation with diffusion-based generative models. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 31:2351–2364, 2023.
+[3] J.-M. Lemercier, J. Richter, S. Welker, and T. Gerkmann. StoRM: A diffusion-based stochastic regeneration model for speech enhancement and dereverberation.
+
