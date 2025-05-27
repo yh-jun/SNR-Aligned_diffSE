@@ -1,7 +1,10 @@
 SNR-Aligned Consistent Diffusion for Adaptive Speech Enhancement
 ================================================================
 
-This repository builds upon the code from https://github.com/sp-uhh/sgmse-bbed [1] by Signal Processing (SP), Universität Hamburg, which is licensed under MIT License.
+This repository contains the official PyTorch implementations for the Interspeech 2025 paper:
+- *SNR-Aligned Consistent Diffusion for Adaptive Speech Enhancement* [1]
+
+This repository builds upon the code from https://github.com/sp-uhh/sgmse-bbed [2] by Signal Processing (SP), Universität Hamburg, which is licensed under MIT License.
 
 Installation
 ------------
@@ -49,13 +52,15 @@ python ./sgmse_bbed/deep_eval.py --test_dir ./dataset/VBD_SNR-5/valid2 --destina
 We offer pretrained checkpoints for M4, M5, M6, SE-Bridge baseline, and our SNR estimator. (Aside from the use of oracle SNR values, M1–M3 and M4–M6 are identical)
 Our checkpoints can be downloaded [here](https://drive.google.com/drive/folders/12xatVSNG1mhjGSW9vppM8AGibo-HKCwK?usp=sharing).
 
-The other baselines, [SGMSE+](https://github.com/sp-uhh/sgmse)[2] and [StoRM](https://github.com/sp-uhh/storm)[3], were evaluated using their official implementations.
+The other baselines, [SGMSE+](https://github.com/sp-uhh/sgmse)[3] and [StoRM](https://github.com/sp-uhh/storm)[4], were evaluated using their official implementations.
 
 References
 ----------
-[1] B. Lay, S. Welker, J. Richter and T. Gerkmann. Reducing the Prior Mismatch of Stochastic Differential Equations for Diffusion-based Speech Enhancement, ISCA Interspeech, 2023.
+[1] Y. Jun, B. J. Woo, M. Jeong and N. S. Kim. SNR-Aligned Consistent Diffusion for Adaptive Speech Enhancement, ISCA Interspeech, 2025.
 
-[2] J. Richter, S. Welker, J.-M. Lemercier, B. Lay, and T. Gerkmann. Speech enhancement and dereverberation with diffusion-based generative models. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 31:2351–2364, 2023.
+[2] B. Lay, S. Welker, J. Richter and T. Gerkmann. Reducing the Prior Mismatch of Stochastic Differential Equations for Diffusion-based Speech Enhancement, ISCA Interspeech, 2023.
 
-[3] J.-M. Lemercier, J. Richter, S. Welker, and T. Gerkmann. StoRM: A diffusion-based stochastic regeneration model for speech enhancement and dereverberation.
+[3] J. Richter, S. Welker, J.-M. Lemercier, B. Lay, and T. Gerkmann. Speech enhancement and dereverberation with diffusion-based generative models. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 31:2351–2364, 2023.
+
+[4] J.-M. Lemercier, J. Richter, S. Welker, and T. Gerkmann. StoRM: A diffusion-based stochastic regeneration model for speech enhancement and dereverberation. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 2023.
 
