@@ -54,6 +54,8 @@ The other baselines, [SGMSE+](https://github.com/sp-uhh/sgmse)[2] and [StoRM](ht
 References
 ----------
 [1] B. Lay, S. Welker, J. Richter and T. Gerkmann. Reducing the Prior Mismatch of Stochastic Differential Equations for Diffusion-based Speech Enhancement, ISCA Interspeech, 2023.
+
 [2] J. Richter, S. Welker, J.-M. Lemercier, B. Lay, and T. Gerkmann. Speech enhancement and dereverberation with diffusion-based generative models. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 31:2351–2364, 2023.
+
 [3] J.-M. Lemercier, J. Richter, S. Welker, and T. Gerkmann. StoRM: A diffusion-based stochastic regeneration model for speech enhancement and dereverberation.
 
