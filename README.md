@@ -4,7 +4,7 @@ SNR-Aligned Consistent Diffusion for Adaptive Speech Enhancement
 This repository contains the official PyTorch implementations for the Interspeech 2025 paper:
 - *SNR-Aligned Consistent Diffusion for Adaptive Speech Enhancement* [1]
 
-This repository builds upon the code from https://github.com/sp-uhh/sgmse-bbed [2] by Signal Processing (SP), Universität Hamburg, which is licensed under MIT License.
+It builds upon the code from https://github.com/sp-uhh/sgmse-bbed [2] by Signal Processing (SP), Universität Hamburg, which is licensed under MIT License.
 
 Installation
 ------------
