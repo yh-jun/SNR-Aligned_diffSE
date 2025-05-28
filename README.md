@@ -34,7 +34,7 @@ Our training process can be run with
 python ./sgmse_bbed/train.py --base_dir ../dataset/VBD_SNR-5/ --modeltype sebridge_v3 --transform_type exponent --loss_type mse --gpus=1 --sigma-max 1.0 --fixed_snr 0.17783 --snr_conditioned true --num_eval_files -1
 ```
 
-`fixed_snr` can be 0.17783 for μ=10, 0.31623 for μ=5, or 0.56234 for μ=0.
+`fixed_snr` can be 0.17783 for η=10, 0.31623 for η=5, or 0.56234 for η=0.
 
 
 Evaluation
